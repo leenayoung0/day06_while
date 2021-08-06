@@ -19,7 +19,8 @@ public class Quiz04 {
 			n = sc.nextInt();
 			
 			
-			  switch(n) { case 3: System.out.println("로그인 프로그램 종료"); System.exit(1);
+			  switch(n) { 
+			  case 3: System.out.println("로그인 프로그램 종료"); System.exit(1);
 			  
 			  case 2: System.out.println("저장할 아이디 입력 : "); id = sc.next();
 					  System.out.println("저장할 비밀번호(숫자만 가능) 입력 : "); pw = sc.nextInt();

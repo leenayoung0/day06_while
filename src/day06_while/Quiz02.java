@@ -39,6 +39,14 @@ public class Quiz02 {
 		System.out.println("순수 3의 배수를 제외한 1~1000까지의 합: "+sum);
 		
 		// -> 선생님 풀이
+//		int i, sum=0, sum1=0;
+//		for(i=1; i<=1000; i++) {
+//			if(i%3==0 && i%5!=0)
+//				sum1+=i;
+//			sum+=i;
+//		}
+//		sum = sum-sum1;
+//		System.out.println(sum);
 		
 		
 		
@@ -53,6 +61,16 @@ public class Quiz02 {
 		//System.out.println("10000을 넘지 않는 마지막 홀수의 합 : "+sum1);
 		System.out.println("10000을 넘지 않는 홀수의 합 마지막 i: "+(i-2));
 		
+		//->선생님 풀이
+//		int i=1; sum=0;
+//		for( ; sum < 10000 ; i++) {
+//			if(i%2 == 1) {
+//				sum+=i;
+//			}
+//			System.out.println(i+" : "+sum);
+//		}
+//		i--;
+//		System.out.println(i+" : "+sum);
 		
 	}
 
